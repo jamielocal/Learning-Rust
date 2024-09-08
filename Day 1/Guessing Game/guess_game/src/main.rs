@@ -8,7 +8,7 @@ use std::cmp::Ordering;
 fn main() {
     println!("Guess A Number!");
     let numb = rand::thread_rng().gen_range(1..=100);
-    println!("Number is {numb}");
+    
     loop {
         println!("Input Number Below");
         let mut guess = String::new();
